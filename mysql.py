@@ -2,7 +2,7 @@ import pymysql
 
 cid = -1
 '''NOTE: change password to your database password in the 3rd argument of pymysql.connect()'''
-database = pymysql.connect('localhost', 'root', 'anitscse034')
+database = pymysql.connect('localhost', 'root', '')
 database.autocommit(True)
 db = database.cursor()
 
